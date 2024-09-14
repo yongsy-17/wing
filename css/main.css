@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: greenyellow;
+    font-family: sans-serif;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 80vh;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+form{
+    margin: 0 auto;
+}
+.header img{
+    width: 200px;
+    height: 70px;
+   margin-left: 50px;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    padding-bottom: 10px;
+    color: gray;
+}
+h1{
+    padding-bottom: 20px;
+    color: rgb(12, 131, 250);
+}
+.from-container{
+    display: flex;
+    flex-direction: column;
+}
+.user{
+    background-color: rgb(198, 197, 197);
+    width: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid grey;
+    margin: 5px;
+    border-radius: 10px;
+}
+input{
+    background-color: rgb(198, 197, 197);
+    padding: 12px;
+    width: 80%;
+    border: none;
+}
+.users input{
+    width: 88%;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: rgb(12, 131, 250);
+    color: white;
+    border: 1px solid blue;
+    margin: 5px;
+    border-radius: 10px;
+}
+.forgot{
+    text-align: center;
+    padding: 15px;
+    color: rgb(12, 131, 250);
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    color: rgb(12, 131, 250);
+}
